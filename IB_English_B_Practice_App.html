@@ -1363,7 +1363,7 @@ function renderHome(){
   const totalScore = computeTotalProgress();
   app.innerHTML = `
     <div class="card">
-      <h2>Welcome, Renatto 👋</h2>
+      <h2>Welcome, ${escHtml(state.user ? state.user.name : 'student')} 👋</h2>
       <p>This is your personal practice app for IB English B — Higher Level and Standard Level. It contains <strong>${EXAMS.length} full practice exams</strong> covering all four skills: <strong>Reading, Writing, Listening and Speaking</strong>. All texts and questions are <em>original materials</em> inspired by the official format. Use them as warm-ups, mock tests, or revision sessions.</p>
       <div class="row" style="margin-top:14px">
         <button class="primary" data-go="exams">Go to exam bank →</button>
@@ -1820,25 +1820,25 @@ function renderListening(ex){
   bindListeningHandlers(ex);
 }
 function renderListeningPassage(p, examId){
+  const audioSrc = `audio/exam${examId}_audio_${p.id}.mp3`;
   return `
     <div class="card">
       <h2>Audio ${p.id} — ${p.title}</h2>
       <div style="font-size:.88rem;color:var(--muted)">${p.instruction||''}</div>
-      <div class="audio-controls">
-        <button class="play" data-play="${p.id}">▶ Play</button>
-        <button data-stop="${p.id}">■ Stop</button>
-        <label style="font-size:.8rem;color:var(--muted)">Speed:
-          <select data-rate="${p.id}" style="margin-left:4px">
-            <option value="0.8">0.8x</option>
-            <option value="0.9">0.9x</option>
-            <option value="1" selected>1.0x</option>
-            <option value="1.1">1.1x</option>
-            <option value="1.2">1.2x</option>
-          </select>
-        </label>
-        <span class="audio-status" id="status-${p.id}">Ready</span>
+      <div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:10px 14px;margin:10px 0;font-size:.85rem">
+        🎙️ <strong>Natural AI voice</strong> — Microsoft Edge Neural TTS
+      </div>
+      <audio controls preload="none" style="width:100%;margin:8px 0" id="audio-${examId}-${p.id}" data-fallback="${p.id}">
+        <source src="${audioSrc}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="audio-controls" style="background:#f8fafc;font-size:.82rem">
+        <span style="color:var(--muted)">If the audio doesn't load, use the fallback below:</span>
+        <button class="ghost small" data-play-tts="${p.id}">▶ Play with browser TTS</button>
+        <button class="ghost small" data-stop="${p.id}">■ Stop TTS</button>
         <button class="ghost small" data-show-script="${p.id}" style="margin-left:auto">Show script</button>
       </div>
+      <span class="audio-status" id="status-${p.id}" style="display:none"></span>
       <div id="script-${p.id}" class="text-block" style="display:none;font-size:.88rem">${escHtml(p.script).replace(/\n/g,'<br>')}</div>
       <h3>Questions for Audio ${p.id}</h3>
       <div class="qList">${p.questions.map(q => renderQuestion(q, examId, 'listening')).join('')}</div>
@@ -1849,14 +1849,13 @@ function bindListeningHandlers(ex){
   document.getElementById('backBtn').addEventListener('click', () => { stopTimer(); stopTTS(); state.view = 'exam'; render(); });
   document.getElementById('startTimer').addEventListener('click', () => startTimer(state.timerSec || ex.listening.timeLimit*60, () => alert('⏰ Time is up!')));
   document.getElementById('stopTimer').addEventListener('click', stopTimer);
-  app.querySelectorAll('[data-play]').forEach(btn => {
+  app.querySelectorAll('[data-play-tts]').forEach(btn => {
     btn.addEventListener('click', () => {
-      const pid = btn.dataset.play;
+      const pid = btn.dataset.playTts;
       const p = ex.listening.passages.find(x => x.id === pid);
-      const rate = parseFloat(document.querySelector(`[data-rate="${pid}"]`).value || 1);
       const status = document.getElementById('status-'+pid);
-      status.textContent = '🔊 Playing…';
-      speak(p.script, rate, () => { status.textContent = 'Finished'; });
+      if(status){ status.style.display='inline'; status.textContent = '🔊 Playing TTS fallback…'; }
+      speak(p.script, 1.0, () => { if(status) status.textContent = 'Finished'; });
     });
   });
   app.querySelectorAll('[data-stop]').forEach(btn => btn.addEventListener('click', () => {
