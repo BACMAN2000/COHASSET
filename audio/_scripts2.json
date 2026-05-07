@@ -1,0 +1,137 @@
+[
+  {
+    "exam": 1,
+    "pid": "A",
+    "title": "Radio segment: Why some people sleep better in winter",
+    "voice": "en-US-JennyNeural",
+    "fname": "audio/exam1_audio_A.mp3",
+    "script": "Welcome back to The Daily Wave. Today we are talking about something that might surprise you: many people, especially in northern countries, actually sleep better in winter than in summer. Why? Well, our brains produce a hormone called melatonin when it is dark, and in winter the nights are longer. So you naturally feel sleepy earlier and stay asleep more deeply. In summer, by contrast, the long evenings push that signal back. A study from the University of Helsinki tracked 800 adults over two years and found that average winter sleep was 41 minutes longer than summer sleep. Of course, not everyone benefits \u2014 people who suffer from seasonal sadness can find the dark winter mornings difficult. The advice from sleep specialists is simple: in summer, use blackout curtains, and in winter, get bright light in the first hour after waking up. Small changes, big effects.",
+    "len": 875
+  },
+  {
+    "exam": 1,
+    "pid": "B",
+    "title": "Interview: A young inventor builds a low-cost water filter",
+    "voice": "en-US-GuyNeural",
+    "fname": "audio/exam1_audio_B.mp3",
+    "script": "Interviewer: Mariana, thank you for joining us. Tell us about your invention. Mariana: Of course. So, my project is a portable water filter that costs less than five dollars to produce. It uses sand, charcoal and a special clay layer that I developed in my school's chemistry lab. Interviewer: What inspired you to start? Mariana: Two summers ago I visited my cousin's village in the north, and I saw children boiling water for over an hour every morning. I thought there had to be a better way. Interviewer: How long did it take to make the first prototype? Mariana: About four months, but I rebuilt it twelve times. The clay layer was the hardest part. Interviewer: And what comes next? Mariana: I want to install one hundred of these filters in rural schools by the end of next year. I also hope to publish the design openly, so anyone can copy it and improve it. Interviewer: That is wonderful. Mariana, thank you so much.",
+    "len": 926
+  },
+  {
+    "exam": 1,
+    "pid": "C",
+    "title": "Podcast: How to talk to a generation that doesn't pick up the phone",
+    "voice": "en-GB-SoniaNeural",
+    "fname": "audio/exam1_audio_C.mp3",
+    "script": "If you have ever sent a text message to someone under 25 and been told that calling them was, quote, an emergency, you are not alone. Across surveys in Europe, the United States and parts of Asia, voice calls are now ranked the most stressful form of communication by people aged 16 to 24. Why? Researchers point to three factors. First, asynchronous messaging \u2014 texts, voice notes, emojis \u2014 gives the writer time to think and edit. Second, voice calls do not allow you to do five other things at once. And third, there is a cultural expectation: calling someone without warning is now seen as slightly rude, almost as if you walked into their bedroom unannounced. Older generations sometimes find this confusing. They grew up with the phone as the most personal tool available. But for younger users, a thoughtful written message often feels more respectful than a sudden call. The advice from communication experts: ask before you call. A simple text saying, \"is now a good time?\" can make all the difference. The phone is not dead \u2014 it has just become a planned activity rather than a spontaneous one.",
+    "len": 1104
+  },
+  {
+    "exam": 2,
+    "pid": "A",
+    "title": "Public announcement: changes at the local library",
+    "voice": "en-GB-RyanNeural",
+    "fname": "audio/exam2_audio_A.mp3",
+    "script": "Good morning, library users. We are pleased to announce several important changes starting next Monday, the third of June. First, our opening hours will be extended on Tuesdays and Thursdays until ten in the evening. Second, the children's section on the second floor has been completely renovated, with new reading corners and 200 new titles in eight languages. Third, our self-checkout machines have moved from the entrance to the back of the main hall, near the staircase. Please remember that wearing earphones is now allowed throughout the library, but loud conversations are not. Finally, our annual reading challenge starts on Friday: read fifteen books before the end of August and receive a free library tote bag. Thank you for visiting and happy reading.",
+    "len": 764
+  },
+  {
+    "exam": 2,
+    "pid": "B",
+    "title": "Conversation: choosing a university course",
+    "voice": "en-AU-NatashaNeural",
+    "fname": "audio/exam2_audio_B.mp3",
+    "script": "Counsellor: So, Daniel, have you decided what to study? Daniel: Sort of. I think I want to do environmental science, but my parents think I should study law. Counsellor: That's a tough position. What attracts you to environmental science? Daniel: Honestly, climate change feels like the biggest problem of my generation. I'd rather work on it than read contracts. Counsellor: That's a strong argument. And what about your parents' concern? Daniel: They worry there are no jobs. Counsellor: That used to be true ten years ago. Today, every major company is hiring sustainability officers, and salaries have caught up. Daniel: Really? Counsellor: Really. But here's a thought: have you considered combining the two? Several universities now offer environmental law programmes. You could satisfy your interest and your parents at the same time. Daniel: I had no idea that existed. Counsellor: Do some research and we can talk again next week.",
+    "len": 939
+  },
+  {
+    "exam": 2,
+    "pid": "C",
+    "title": "News report: a town where everyone learns sign language",
+    "voice": "en-AU-WilliamNeural",
+    "fname": "audio/exam2_audio_C.mp3",
+    "script": "In the small town of Klejtrup, in northern Denmark, something remarkable is happening. Every primary school child, regardless of hearing ability, learns sign language as a compulsory subject from the age of six. The initiative began three years ago, after a parent noticed her deaf daughter was being excluded during break time, not because of bad will, but because the other children simply could not communicate with her. Today, every shop in town has at least one employee fluent in sign language. Local doctors have completed a basic course. Even the bus driver, when asked, will tell you the sign for \"thank you\" and \"is this the right stop\". The result is a community where deaf and hearing children play together without effort. Researchers from Copenhagen are now studying whether the model can be replicated. Critics say it is expensive and time-consuming. Supporters reply, simply, that inclusion is never free \u2014 but exclusion always costs more.",
+    "len": 955
+  },
+  {
+    "exam": 3,
+    "pid": "A",
+    "title": "Voice message: school trip details",
+    "voice": "en-US-AriaNeural",
+    "fname": "audio/exam3_audio_A.mp3",
+    "script": "Hi Lucas, this is Mr. Adams from the geography department. I am leaving you this message because you missed our briefing this morning about Friday's school trip. So, here are the key details. We are visiting the National Botanical Garden, and we'll meet at the school's main gate at seven thirty in the morning. Please bring a packed lunch \u2014 there are no shops nearby. The bus leaves at quarter to eight, so do not be late. We are returning at around four in the afternoon. Wear comfortable shoes and bring a notebook for the activity sheet. The weather forecast says it might rain, so a small jacket is a good idea. Any questions, send me an email today before five. See you Friday!",
+    "len": 683
+  },
+  {
+    "exam": 3,
+    "pid": "B",
+    "title": "Interview: a teen volunteer at the food bank",
+    "voice": "en-US-DavisNeural",
+    "fname": "audio/exam3_audio_B.mp3",
+    "script": "Reporter: Liam, you've been volunteering at the food bank for almost a year. What made you start? Liam: My mum lost her job in 2024 and we used the food bank ourselves for two months. I never forgot how kind the volunteers were. Last September, I decided to give back. Reporter: What do you do exactly? Liam: I work on Saturdays, mostly. I sort donations, pack family boxes, and sometimes I help carry things to people's cars. Reporter: How many hours per week? Liam: Just four hours, but it's the best four hours of my week. Reporter: What is the most surprising thing you've learned? Liam: That the people who come to the food bank are not who I imagined. Many work full-time jobs. Some are studying. Some are nurses. The need is much wider than I thought. Reporter: Thank you, Liam. Liam: Thank you.",
+    "len": 802
+  },
+  {
+    "exam": 3,
+    "pid": "C",
+    "title": "Podcast: living with less plastic",
+    "voice": "en-GB-LibbyNeural",
+    "fname": "audio/exam3_audio_C.mp3",
+    "script": "Welcome to Green Habits, the podcast that helps you live more sustainably without giving up your life. Today: plastic. Did you know the average household throws away 312 pieces of plastic every week? Yes, that's right. Most of it is packaging. The good news is, you don't need to live in a forest to make a real difference. Three small changes can cut your plastic waste in half. First: bring your own bags to the supermarket. This sounds obvious, but a recent survey showed that 41% of people forget them at home. Keep one in your jacket pocket \u2014 you'll never forget again. Second: switch from liquid soap in plastic bottles to solid bar soap. It lasts longer and creates almost no waste. Third: buy fruit and vegetables loose, not pre-packaged. They are usually fresher and slightly cheaper. None of these changes require effort or money. They just require a little awareness. Try them this week and let me know how it goes. Until next time, keep it green.",
+    "len": 958
+  },
+  {
+    "exam": 4,
+    "pid": "A",
+    "title": "Announcement: a school music competition",
+    "voice": "en-IE-EmilyNeural",
+    "fname": "audio/exam4_audio_A.mp3",
+    "script": "Good afternoon, students. This is a reminder about our annual school music competition, which will take place on Friday the 22nd of May at six o'clock in the school auditorium. The competition is open to all students, individually or in small groups of up to four people. You can perform any genre, but the maximum length of each performance is five minutes. Please sign up at the music department before next Wednesday. The winner will receive a voucher for a music store, plus the chance to perform at the end-of-year ceremony. Doors open at five thirty. Bring your friends and family. Good luck to all participants!",
+    "len": 618
+  },
+  {
+    "exam": 4,
+    "pid": "B",
+    "title": "Conversation: a teen and a coding teacher",
+    "voice": "en-CA-ClaraNeural",
+    "fname": "audio/exam4_audio_B.mp3",
+    "script": "Sofia: Mr. Park, can I ask you something? Mr. Park: Of course, Sofia. Sofia: I want to apply for the summer coding camp, but I'm scared. I've only been coding for six months. Everyone there will be much better. Mr. Park: Sofia, six months ago you couldn't write a single line of Python. Last week you finished a project I would expect from a second-year student. Sofia: But I've never met other coders my age. Mr. Park: That is exactly why you should go. Coding alone teaches you to write code. Coding with others teaches you to think. Sofia: What if I can't keep up? Mr. Park: You will struggle some days. Everyone does. The kids who go to that camp aren't geniuses \u2014 they are just curious. And so are you. Sofia: Will you write a recommendation letter? Mr. Park: I'd be honoured.",
+    "len": 781
+  },
+  {
+    "exam": 4,
+    "pid": "C",
+    "title": "Podcast clip: Why old phones can save lives",
+    "voice": "en-CA-LiamNeural",
+    "fname": "audio/exam4_audio_C.mp3",
+    "script": "Did you know that the average person keeps three or four old phones in a drawer at home? Phones they don't use, can't sell easily, and don't quite want to throw away. Today, several non-profit projects are turning these forgotten devices into something extraordinary. In rural Brazil, a project called Phone Forward collects old smartphones, installs an app that detects deforestation through audio, and places them in trees in the rainforest. Each phone becomes a tiny listening station, alerting park rangers when it hears the sound of a chainsaw. Hundreds of square kilometres are now protected this way. In Kenya, similar phones are placed inside hospitals as remote monitors for patients in poor connectivity areas. The technology you have at the bottom of a drawer is not old. It is just unused. Before throwing your next phone away, think twice \u2014 it might still have something important to say.",
+    "len": 901
+  },
+  {
+    "exam": 5,
+    "pid": "A",
+    "title": "News bulletin: a young chess prodigy",
+    "voice": "en-NZ-MollyNeural",
+    "fname": "audio/exam5_audio_A.mp3",
+    "script": "And in our cultural news today, a remarkable story from Lagos. Twelve-year-old Adaeze Okonkwo has just become the youngest African player in history to defeat a grandmaster in an official tournament. The match took place on Sunday in Berlin, where Adaeze defeated Russian grandmaster Alexei Volkov in just thirty-four moves. Adaeze learned chess from her older brother when she was six years old, using a board he had carved himself from waste wood. She trained without a coach for the first four years. \"I had a phone with chess apps, an internet connection, and a lot of patience,\" she told reporters with a calm smile. International chess federations are now offering her scholarships from at least eight different countries. Her mother, a nurse, told the press that the family will choose carefully and is in no rush. \"She is twelve,\" she said. \"She has time.\"",
+    "len": 864
+  },
+  {
+    "exam": 5,
+    "pid": "B",
+    "title": "Conversation: choosing a pet",
+    "voice": "en-IN-NeerjaNeural",
+    "fname": "audio/exam5_audio_B.mp3",
+    "script": "Daughter: Mum, can we please talk about getting a pet again? Mother: Mia, we agreed not to discuss this until next year. Daughter: I know, but I have done research this time. Mother: Tell me. Daughter: I don't want a dog anymore. I think I want a rabbit. Mother: A rabbit? Daughter: They live up to ten years, they are quiet, they need only one walk per day, and they can be trained to use a litter box. Mother: That's actually very organised, Mia. But who will look after it during summer holidays? Daughter: Aunt Helen has a garden. I already asked her. She said yes. Mother: You spoke to your aunt without asking me first? Daughter: I just wanted to be prepared. Mother: I see. Well, I'll think about it \u2014 seriously this time. We can visit a rabbit shelter on Saturday and see how you behave around them. Daughter: Thank you, mum, you're the best!",
+    "len": 850
+  },
+  {
+    "exam": 5,
+    "pid": "C",
+    "title": "Podcast: Why writing by hand still matters",
+    "voice": "en-ZA-LeahNeural",
+    "fname": "audio/exam5_audio_C.mp3",
+    "script": "In an age where almost everything is typed, swiped or dictated, the simple act of writing by hand has become surprisingly rare. And yet, neuroscientists are increasingly convinced it is something we should not lose. A 2024 study from Norway examined the brains of university students while they took notes \u2014 some on laptops, others by hand. The handwritten group showed greater connectivity in regions associated with memory and learning. The reason? When we write by hand, we are forced to summarise and rephrase what we hear, instead of typing each word as we hear it. The slowness is the feature, not the bug. The recommendation from researchers is clear: by all means use your laptop for fast tasks, but for studying, for journaling, for important ideas, pick up a pen. The brain rewards effort. And the friction of pen on paper is exactly the kind of effort it likes most. So before your next exam, do not just review your typed notes. Rewrite them, slowly, by hand. The same words, the second time, will travel further into your memory than they ever did the first.",
+    "len": 1071
+  }
+]

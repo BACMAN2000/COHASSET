@@ -1,0 +1,122 @@
+[
+  {
+    "exam": 1,
+    "pid": "A",
+    "title": "Public announcement: changes at the local library",
+    "voice": "en-US-JennyNeural",
+    "fname": "audio/exam1_audio_A.mp3",
+    "len": 764
+  },
+  {
+    "exam": 1,
+    "pid": "B",
+    "title": "Conversation: choosing a university course",
+    "voice": "en-US-GuyNeural",
+    "fname": "audio/exam1_audio_B.mp3",
+    "len": 939
+  },
+  {
+    "exam": 1,
+    "pid": "C",
+    "title": "News report: a town where everyone learns sign language",
+    "voice": "en-GB-SoniaNeural",
+    "fname": "audio/exam1_audio_C.mp3",
+    "len": 955
+  },
+  {
+    "exam": 2,
+    "pid": "A",
+    "title": "Voice message: school trip details",
+    "voice": "en-GB-RyanNeural",
+    "fname": "audio/exam2_audio_A.mp3",
+    "len": 683
+  },
+  {
+    "exam": 2,
+    "pid": "B",
+    "title": "Interview: a teen volunteer at the food bank",
+    "voice": "en-AU-NatashaNeural",
+    "fname": "audio/exam2_audio_B.mp3",
+    "len": 802
+  },
+  {
+    "exam": 2,
+    "pid": "C",
+    "title": "Podcast: living with less plastic",
+    "voice": "en-AU-WilliamNeural",
+    "fname": "audio/exam2_audio_C.mp3",
+    "len": 958
+  },
+  {
+    "exam": 3,
+    "pid": "A",
+    "title": "Announcement: a school music competition",
+    "voice": "en-US-AriaNeural",
+    "fname": "audio/exam3_audio_A.mp3",
+    "len": 618
+  },
+  {
+    "exam": 3,
+    "pid": "B",
+    "title": "Conversation: a teen and a coding teacher",
+    "voice": "en-US-DavisNeural",
+    "fname": "audio/exam3_audio_B.mp3",
+    "len": 781
+  },
+  {
+    "exam": 3,
+    "pid": "C",
+    "title": "Podcast clip: Why old phones can save lives",
+    "voice": "en-GB-LibbyNeural",
+    "fname": "audio/exam3_audio_C.mp3",
+    "len": 901
+  },
+  {
+    "exam": 4,
+    "pid": "A",
+    "title": "News bulletin: a young chess prodigy",
+    "voice": "en-IE-EmilyNeural",
+    "fname": "audio/exam4_audio_A.mp3",
+    "len": 864
+  },
+  {
+    "exam": 4,
+    "pid": "B",
+    "title": "Conversation: choosing a pet",
+    "voice": "en-CA-ClaraNeural",
+    "fname": "audio/exam4_audio_B.mp3",
+    "len": 850
+  },
+  {
+    "exam": 4,
+    "pid": "C",
+    "title": "Podcast: Why writing by hand still matters",
+    "voice": "en-CA-LiamNeural",
+    "fname": "audio/exam4_audio_C.mp3",
+    "len": 1071
+  },
+  {
+    "exam": 5,
+    "pid": "A",
+    "title": "News bulletin: a young chess prodigy",
+    "voice": "en-NZ-MollyNeural",
+    "fname": "audio/exam5_audio_A.mp3",
+    "len": 864
+  },
+  {
+    "exam": 5,
+    "pid": "B",
+    "title": "Conversation: choosing a pet",
+    "voice": "en-IN-NeerjaNeural",
+    "fname": "audio/exam5_audio_B.mp3",
+    "len": 850
+  },
+  {
+    "exam": 5,
+    "pid": "C",
+    "title": "Podcast: Why writing by hand still matters",
+    "voice": "en-ZA-LeahNeural",
+    "fname": "audio/exam5_audio_C.mp3",
+    "len": 1071
+  }
+]
